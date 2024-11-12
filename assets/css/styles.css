@@ -1,0 +1,57 @@
+#module-details-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0,0,0,0.6);
+}
+
+#module-details-modal.is-visible {
+    display: block;
+}
+
+#modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    border-radius: 5px;
+    position: relative;
+}
+
+#module-details-modal #modal-content #modal-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#module-details-modal #modal-content #modal-close:hover,
+#module-details-modal #modal-content #modal-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#mut-wpb-support-btn,
+#mut-wpb-docs-btn {
+    line-height: 22px;
+    float: right;
+    margin-left: 12px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 6;
+}
+
+#usage_filter {
+    margin-top: 6px;
+}
