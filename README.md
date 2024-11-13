@@ -39,7 +39,7 @@ Clicking on "View Details" opens a modal displaying:
 ## Support and Documentation
 
 - **Support**: [Contact Robert DeVore](https://robertdevore.com/contact/)
-- **Documentation**: [Content Restriction for WordPress](https://robertdevore.com/articles/module-usage-tracker-for-wp-bakery/)
+- **Documentation**: [Module Usage Tracker for WP Bakery](https://robertdevore.com/articles/module-usage-tracker-for-wp-bakery/)
 
 ## Development
 
